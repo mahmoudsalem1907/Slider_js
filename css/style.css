@@ -1,0 +1,37 @@
+.captions {
+  background-color: bisque;
+  /* top: 0; */
+  left: 0;
+  bottom: 40px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+#boxContainer {
+  position: fixed;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 100vh; */
+  background-color: rgba(111, 117, 117, 0.516);
+}
+#boxItem {
+  width: 50%;
+  height: 70%;
+  background-image: url("../images/portfolio-2.jpg");
+  background-size: cover;
+}
+
+#boxItem i {
+  cursor: pointer;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
